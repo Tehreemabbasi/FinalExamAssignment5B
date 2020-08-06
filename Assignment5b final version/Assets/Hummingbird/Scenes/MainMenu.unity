@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.65601635, g: 0.735849, b: 0.7148404, a: 0.5686275}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 0.5686275}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -939,7 +939,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Language Chosen
+  m_Text: 'Language '
 --- !u!222 &142065773
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1016,7 +1016,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Palindrome World
+  m_Text: Palindrome game view
 --- !u!222 &162600615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.65601635, g: 0.735849, b: 0.7148404, a: 0.5686275}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 0.5686275}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1976,9 +1976,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "=> First chracter is x\n=> Second character is r (Name's first character)\n=>
-    Third is 8 (Last digit of Roll no)\n=> Opening and closinng parenthesis\nLanguage:
-    w \u2208 {(,x,r,8,)}  iff Num of ( = Num of )"
+  m_Text: " First chracter is x,\nSecond character is r (Name's first character),
+    Third is 8 (Last digit of Roll no)\nOpening and closinng parenthesis\nLanguage:
+    w \u2208 {(,x,t,8,)}  iff Num of ( = Num of )"
 --- !u!222 &451734715
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2448,7 +2448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.90588236, g: 0.7372549, b: 0.6787151, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3263,7 +3263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3597,7 +3597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.90588236, g: 0.7372549, b: 0.6787151, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3737,7 +3737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3871,26 +3871,26 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1. Automata (DFA, NFA)
+  m_Text: '*. Automata (DFA, NFA)
 
-    2. Regular Languages and Expressions
+    . *.Regular Languages and Expressions
 
-    3.
-    Context Free Grammer and PDA
+    .
+    *.Context Free Grammer and PDA
 
-    4. Turing Machines
+    . *.Turing Machines
 
-    5. Variations of Turing
-    Machine
+    . *.Variations of
+    Turing Machine
 
-    6. Decideable Problems and Recursive languages
+    . Decideable Problems and Recursive languages
 
-    7. Implementation
+    *.. Implementation
     of FSM
 
-    8. Implementation of ML-Agent projects (Humming bird and Penguin)
+    *.. Implementation of ML-Agent projects (Humming bird and Penguin)
 
-    9.
+    *.
     Roll A ball game with two different scenerios.
 
 '
@@ -3956,7 +3956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.65601635, g: 0.735849, b: 0.7148404, a: 0.5686275}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 0.5686275}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4096,7 +4096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8773585, b: 0.81784976, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4253,7 +4253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.90588236, g: 0.7372549, b: 0.6787151, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4393,7 +4393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4686,7 +4686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4777,7 +4777,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Parenthesis World
+  m_Text: Parenthesis game view
 --- !u!222 &1220811641
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4854,7 +4854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Instructor Website Link
+  m_Text: Lab link
 --- !u!222 &1221515224
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5256,7 +5256,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Course Instructor:
 
-    Dr. Muaz Ahmed Niazi
+    Dr. Muaz Ahmed Khan Niazi
 
 '
 --- !u!222 &1283708905
@@ -5335,7 +5335,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: (http://www.niazilab.com
+  m_Text: url (http://www.niazilab.com)
 --- !u!222 &1304700059
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5782,8 +5782,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "=> First chracter is x\n=> Second character is r (Name's first character)\n=>
-    Third is 8 (Last digit of Roll no)\nLanguage: w \u2208 {x,r,8}  iff w = wR"
+  m_Text: " First element  is x, Second character is t (name)\n,Third is 8 (reg no)\nLanguage:
+    w \u2208 {x,t,8}  if and only if w = wR"
 --- !u!222 &1581429416
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6238,7 +6238,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Language Chosen
+  m_Text: Language
 --- !u!222 &1744302759
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6556,7 +6556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6714,7 +6714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.7369375, b: 0.6862745, a: 1}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6793,7 +6793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.65601635, g: 0.735849, b: 0.7148404, a: 0.5686275}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 0.5686275}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6884,7 +6884,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Matching Parenthesis
+  m_Text: ' Parenthesis'
 --- !u!222 &1982892177
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7001,7 +7001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.65601635, g: 0.735849, b: 0.7148404, a: 0.5686275}
+  m_Color: {r: 0.6117647, g: 0.8784314, b: 0.81960785, a: 0.5686275}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

@@ -65,7 +65,7 @@ public class SpawnnerT : MonoBehaviour
     //func that generate random strings
     public static string RandomString(int length)
     {
-        const string chars = "(xr8)";
+        const string chars = "(xt8)";
         return new string(Enumerable.Repeat(chars, length).Select(s => s[random.Next(s.Length)]).ToArray());
     }
     //this function is called in playerController class

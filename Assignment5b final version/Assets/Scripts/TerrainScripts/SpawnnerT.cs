@@ -14,15 +14,15 @@ public class SpawnnerT : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int c = 0;
+        int s = 0;
         for (int i = 0; i < 58;)
         {
 
             //create random positions and pass this position variable to Instantiate function to create cube at these locations
             Vector3 position = new Vector3(UnityEngine.Random.Range(2, 38), UnityEngine.Random.Range(0.5f, 0.5f), UnityEngine.Random.Range(2, 32));
 
-            float x = 0;
-            if (Physics.CheckSphere(position, x))
+            float q = 0;
+            if (Physics.CheckSphere(position, q))
             {
 
             }
@@ -34,12 +34,12 @@ public class SpawnnerT : MonoBehaviour
                 string cubeText = RandomString(random.Next(9, 15));
                 //convert random string into balanced
                 System.Random rn = new System.Random();
-                if (c <= 18)
+                if (s <= 18)
                 {
-                    string s = cubeText.Substring(0, cubeText.Length -5);
-                    s = balancedBrackets(s);
-                    cube.transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = s;
-                    c++;
+                    string c = cubeText.Substring(0, cubeText.Length -5);
+                    c = balancedBrackets(c);
+                    cube.transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = c;
+                    s++;
                 }
                 else
                     cube.transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = cubeText;
@@ -48,9 +48,9 @@ public class SpawnnerT : MonoBehaviour
                 char[] exp= new char[cubeText.Length];
                 //check for balanced parenthesis
                 string cubeFinalValue = cube.transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text;
-                for (int k = 0; k < cubeFinalValue.Length; k++)
+                for (int l = 0; l < cubeFinalValue.Length; l++)
                 {
-                    exp[k] = cubeFinalValue[k];
+                    exp[l] = cubeFinalValue[k];
                 }
                 if (areParenthesisBalanced(exp))
                 {
@@ -74,28 +74,28 @@ public class SpawnnerT : MonoBehaviour
     public static string balancedBrackets(string str)
     {
         // Initializing dep to 0 
-        int dep = 0;
+        int d = 0;
 
         // Stores maximum negative depth 
-        int minDep = 0;
+        int minD = 0;
 
         for (int i = 0; i < str.Length; i++)
         {
             if (str[i] == '(')
                 dep++;
             else if (str[i] == ')')
-                dep--;
+                d--;
 
             // if dep is less than minDep 
-            if (minDep > dep)
-                minDep = dep;
+            if (minD > d)
+                minD = d;
         }
 
         // if minDep is less than 0 then there 
         // is need to add '(' at the front 
-        if (minDep < 0)
+        if (minD < 0)
         {
-            for (int i = 0; i < Math.Abs(minDep); i++)
+            for (int i = 0; i < Math.Abs(minD); i++)
                 str = '(' + str;
         }
 
@@ -105,25 +105,25 @@ public class SpawnnerT : MonoBehaviour
         for (int i = 0; i < str.Length; i++)
         {
             if (str[i] == '(')
-                dep++;
+                d++;
             else if (str[i] == ')')
-                dep--;
+                d--;
         }
 
         // if dep is not 0 then there 
         // is need to add ')' at the back 
-        if (dep != 0)
+        if (d != 0)
         {
-            for (int i = 0; i < dep; i++)
+            for (int i = 0; i < d; i++)
                 str = str + ')';
         }
         return str;
     }
 
 
-    static Boolean isMatchingPair(char character1, char character2)
+    static Boolean isMatchingPair(char ch1, char ch2)
     {
-        if (character1 == '(' && character2 == ')')
+        if (ch1 == '(' && ch2 == ')')
             return true;
         else
             return false;

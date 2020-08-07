@@ -14,15 +14,15 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int c = 0;
+        int s = 0;
         for (int i = 0; i <= 9;) 
         {
            
             //create random positions and pass this position variable to Instantiate function to create cube at these locations
             Vector3 position = new Vector3(UnityEngine.Random.Range(-9, 9), UnityEngine.Random.Range(0.5f, 0.5f), UnityEngine.Random.Range(-9, 9));
 
-            float x = 0;
-            if (Physics.CheckSphere(position, x))
+            float l= 0;
+            if (Physics.CheckSphere(position, l))
             {
 
             }
@@ -42,7 +42,7 @@ public class Spawner : MonoBehaviour
                     string temp = new string(arr);
                     cubeText = first + temp;
                     cube.transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = cubeText;
-                    c++;
+                    s++;
                 }
                 else
                     cube.transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = cubeText;
@@ -71,10 +71,7 @@ public class Spawner : MonoBehaviour
         const string chars = "xt8";
         return new string(Enumerable.Repeat(chars, length).Select(s => s[random.Next(s.Length)]).ToArray());
     }
-    //this function is called in playerController class
-   
 
-    // Update is called once per frame
     void Update()
     {
         
